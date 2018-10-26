@@ -18,6 +18,7 @@ html {
     height: 100%;
 }
 
+/* Gives the body element its layout*/
 body {
     width: 95%;
     min-width: 640px;
@@ -36,6 +37,7 @@ a {
 }
 
 /* Row Styles */
+/*  */
 .row::after {
     clear: both;
     content: "";
@@ -46,12 +48,14 @@ a {
 
 
 /* Page Header Styles */
+/* Gives the image a place next to the navs */
 body header img {
     display: block;
     width: 70%;
     float: left;
 }
 
+/* Gives the horizontal nav it's place */
 body header nav {
     float: left;
     padding-left: 2%;
@@ -59,12 +63,14 @@ body header nav {
     width: 30%;
 }
 
+/* Adds space between the links of the vertical nav */
 header nav a {
     display: block;
     width: 100%;
 }
 
 /* Horizontal Navigation List Styles */
+/* The horizontal nav is created */
 nav.horizontal li {
     display: block;
     width: 12.5%;
@@ -72,6 +78,7 @@ nav.horizontal li {
 }
 
 /* Topics Styles */
+/* creates the layout of the topic styles */
 ul#topics li {
     display: block;
     width: 20%;
@@ -80,6 +87,7 @@ ul#topics li {
     margin-right: 1.5%;
 }
 
+/* Following pseudo classes create so that the margins to the left and right have a certain width from the pag */
 ul#topics li:first-of-type {
     margin-left: 7.75%;
 }
@@ -103,11 +111,13 @@ hr {
 
 
 /* Customer Comment Styles */
+/* Creates layout of the comments section */
 ul#comments {
     width: 75%;
     margin: 40px auto 40px auto;
 }
 
+/* makes it so that there are two columns for comments */
 ul#comments li {
     display: block;
     width: 50%;
@@ -115,6 +125,7 @@ ul#comments li {
     margin-bottom: 30px;
 }
 
+/* Resizes images */
 ul#comments li img {
     display: block;
     width: 20%;
@@ -123,12 +134,14 @@ ul#comments li img {
     margin-right: 5%;
 }
 
+/* Makes the paragraph tags within the list tags fit between the pictures */
 ul#comments li>p {
     float: left;
     width: 70%;
 }
 
 /* Footer Styles */
+/* Makes the footer visible */
 footer {
     clear: both;
 }
